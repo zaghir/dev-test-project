@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.zaghir.project.testSelenium.SeleniumTestWhithChromeDriver">
+        <methods>
+          <include name="testMenuAjouterArticle1"/>
+          <include name="testIdentification"/>
+          <include name="testMenuAjouterArticle2"/>
+          <include name="testMenu"/>
+          <include name="setUpFireFox"/>
+        </methods>
+      </class> <!-- com.zaghir.project.testSelenium.SeleniumTestWhithChromeDriver -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

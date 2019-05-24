@@ -1,0 +1,17 @@
+<suite name="suite-pizza-fromage">
+  <test name="test-pizza-fromage">
+  	<groups>
+  	  <define name="CommandePizzaFromage">
+      		<include name="legumes"/>
+     		<include name="fabrication"/>
+     		<include name="commanderPizzaFromage"/>
+      </define>       
+      <run>
+        <include name="CommandePizzaFromage"/>
+      </run>
+    </groups>
+    <classes>
+       <class name="com.zaghir.project.testNG.TestNGDemo3" />
+    </classes>
+  </test>
+</suite>

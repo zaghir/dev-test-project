@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-suite-pizza-fromage">
+              <span class="suite-name border-passed">suite-pizza-fromage</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-suite-pizza-fromage">
+                    <span>C:\Outil-de-developpement\Workspace-sts\TestNG-project\testng-pizza-fromage.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-suite-pizza-fromage">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-suite-pizza-fromage">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-suite-pizza-fromage">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-suite-pizza-fromage">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-suite-pizza-fromage">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-suite-pizza-fromage">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-suite-pizza-fromage" class="hide-methods passed suite-suite-pizza-fromage"> (hide)</a> <!-- hide-methods passed suite-suite-pizza-fromage -->
+                      <a href="#" panel-name="suite-suite-pizza-fromage" class="show-methods passed suite-suite-pizza-fromage"> (show)</a> <!-- show-methods passed suite-suite-pizza-fromage -->
+                    </span>
+                    <div class="method-list-content passed suite-suite-pizza-fromage">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite-pizza-fromage" title="com.zaghir.project.testNG.TestNGDemo3" hash-for-method="testChampignons">testChampignons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite-pizza-fromage" title="com.zaghir.project.testNG.TestNGDemo3" hash-for-method="testCommanderPizzaFromage">testCommanderPizzaFromage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite-pizza-fromage" title="com.zaghir.project.testNG.TestNGDemo3" hash-for-method="testCuire">testCuire</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite-pizza-fromage" title="com.zaghir.project.testNG.TestNGDemo3" hash-for-method="testEmballer">testEmballer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite-pizza-fromage" title="com.zaghir.project.testNG.TestNGDemo3" hash-for-method="testOignon">testOignon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite-pizza-fromage" title="com.zaghir.project.testNG.TestNGDemo3" hash-for-method="testPreparer">testPreparer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-suite-pizza-fromage -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-suite-pizza-champignons">
+              <span class="suite-name border-passed">suite-pizza-champignons</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-suite-pizza-champignons">
+                    <span>C:\Outil-de-developpement\Workspace-sts\TestNG-project\testng-pizza-champignons.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-suite-pizza-champignons">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-suite-pizza-champignons">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-suite-pizza-champignons">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-suite-pizza-champignons">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-suite-pizza-champignons">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-suite-pizza-champignons">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-suite-pizza-champignons" class="hide-methods passed suite-suite-pizza-champignons"> (hide)</a> <!-- hide-methods passed suite-suite-pizza-champignons -->
+                      <a href="#" panel-name="suite-suite-pizza-champignons" class="show-methods passed suite-suite-pizza-champignons"> (show)</a> <!-- show-methods passed suite-suite-pizza-champignons -->
+                    </span>
+                    <div class="method-list-content passed suite-suite-pizza-champignons">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite-pizza-champignons" title="com.zaghir.project.testNG.TestNGDemo3" hash-for-method="testChampignons">testChampignons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite-pizza-champignons" title="com.zaghir.project.testNG.TestNGDemo3" hash-for-method="testCommanderPizzaChampignons">testCommanderPizzaChampignons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite-pizza-champignons" title="com.zaghir.project.testNG.TestNGDemo3" hash-for-method="testCuire">testCuire</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite-pizza-champignons" title="com.zaghir.project.testNG.TestNGDemo3" hash-for-method="testEmballer">testEmballer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite-pizza-champignons" title="com.zaghir.project.testNG.TestNGDemo3" hash-for-method="testOignon">testOignon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite-pizza-champignons" title="com.zaghir.project.testNG.TestNGDemo3" hash-for-method="testPreparer">testPreparer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-suite-pizza-champignons -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-suite-pizza-fromage" class="panel suite-pizza-fromage">
+          <div class="suite-suite-pizza-fromage-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.zaghir.project.testNG.TestNGDemo3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChampignons">
+                  </a> <!-- testChampignons -->
+                  <span class="method-name">testChampignons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCommanderPizzaFromage">
+                  </a> <!-- testCommanderPizzaFromage -->
+                  <span class="method-name">testCommanderPizzaFromage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCuire">
+                  </a> <!-- testCuire -->
+                  <span class="method-name">testCuire</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmballer">
+                  </a> <!-- testEmballer -->
+                  <span class="method-name">testEmballer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOignon">
+                  </a> <!-- testOignon -->
+                  <span class="method-name">testOignon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPreparer">
+                  </a> <!-- testPreparer -->
+                  <span class="method-name">testPreparer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite-pizza-fromage-class-passed -->
+        </div> <!-- panel suite-pizza-fromage -->
+        <div panel-name="suite-bowser" class="panel bowser">
+        </div> <!-- panel bowser -->
+        <div panel-name="suite-suite-pizza-champignons" class="panel suite-pizza-champignons">
+          <div class="suite-suite-pizza-champignons-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.zaghir.project.testNG.TestNGDemo3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChampignons">
+                  </a> <!-- testChampignons -->
+                  <span class="method-name">testChampignons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCommanderPizzaChampignons">
+                  </a> <!-- testCommanderPizzaChampignons -->
+                  <span class="method-name">testCommanderPizzaChampignons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCuire">
+                  </a> <!-- testCuire -->
+                  <span class="method-name">testCuire</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmballer">
+                  </a> <!-- testEmballer -->
+                  <span class="method-name">testEmballer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOignon">
+                  </a> <!-- testOignon -->
+                  <span class="method-name">testOignon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPreparer">
+                  </a> <!-- testPreparer -->
+                  <span class="method-name">testPreparer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite-pizza-champignons-class-passed -->
+        </div> <!-- panel suite-pizza-champignons -->
+        <div panel-name="test-xml-suite-pizza-fromage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Outil-de-developpement\Workspace-sts\TestNG-project\testng-pizza-fromage.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;suite-pizza-fromage&quot;&gt;
+  &lt;test name=&quot;test-pizza-fromage&quot;&gt;
+    &lt;groups&gt;
+      &lt;define name=&quot;CommandePizzaFromage&quot;&gt;
+        &lt;include name=&quot;legumes&quot;/&gt;
+        &lt;include name=&quot;fabrication&quot;/&gt;
+        &lt;include name=&quot;commanderPizzaFromage&quot;/&gt;
+      &lt;/define&gt; &lt;!-- CommandePizzaFromage --&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;CommandePizzaFromage&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zaghir.project.testNG.TestNGDemo3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test-pizza-fromage --&gt;
+&lt;/suite&gt; &lt;!-- suite-pizza-fromage --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-bowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Outil-de-developpement\Workspace-sts\TestNG-project\testng-commande-pizza.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;bowser&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;testng-pizza-champignons.xml&quot;/&gt;
+    &lt;suite-file path=&quot;testng-pizza-fromage.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- bowser --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-suite-pizza-champignons" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Outil-de-developpement\Workspace-sts\TestNG-project\testng-pizza-champignons.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;suite-pizza-champignons&quot;&gt;
+  &lt;test name=&quot;test-pizza-champignons&quot;&gt;
+    &lt;groups&gt;
+      &lt;define name=&quot;CommandePizzaChampignons&quot;&gt;
+        &lt;include name=&quot;legumes&quot;/&gt;
+        &lt;include name=&quot;fabrication&quot;/&gt;
+        &lt;include name=&quot;commanderPizzaChampignons&quot;/&gt;
+      &lt;/define&gt; &lt;!-- CommandePizzaChampignons --&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;CommandePizzaChampignons&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zaghir.project.testNG.TestNGDemo3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test-pizza-champignons --&gt;
+&lt;/suite&gt; &lt;!-- suite-pizza-champignons --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-suite-pizza-fromage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for suite-pizza-fromage</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test-pizza-fromage (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-bowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for bowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-suite-pizza-champignons" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for suite-pizza-champignons</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test-pizza-champignons (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-suite-pizza-fromage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for suite-pizza-fromage</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">commanderPizzaFromage</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCommanderPizzaFromage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">fabrication</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCuire</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testEmballer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testPreparer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">legumes</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testChampignons</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testOignon</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-bowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for bowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-suite-pizza-champignons" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for suite-pizza-champignons</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">commanderPizzaChampignons</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCommanderPizzaChampignons</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">fabrication</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCuire</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testEmballer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testPreparer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">legumes</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testChampignons</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testOignon</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-suite-pizza-fromage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for suite-pizza-fromage</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_suite-pizza-fromage');
+function tableData_suite-pizza-fromage() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCuire')
+data.setCell(0, 2, 'com.zaghir.project.testNG.TestNGDemo3')
+data.setCell(0, 3, 10);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testChampignons')
+data.setCell(1, 2, 'com.zaghir.project.testNG.TestNGDemo3')
+data.setCell(1, 3, 2);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCommanderPizzaFromage')
+data.setCell(2, 2, 'com.zaghir.project.testNG.TestNGDemo3')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testOignon')
+data.setCell(3, 2, 'com.zaghir.project.testNG.TestNGDemo3')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testPreparer')
+data.setCell(4, 2, 'com.zaghir.project.testNG.TestNGDemo3')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testEmballer')
+data.setCell(5, 2, 'com.zaghir.project.testNG.TestNGDemo3')
+data.setCell(5, 3, 0);
+window.suiteTableData['suite-pizza-fromage']= { tableData: data, tableDiv: 'times-div-suite-pizza-fromage'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 ms</span>
+              <div id="times-div-suite-pizza-fromage">
+              </div> <!-- times-div-suite-pizza-fromage -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-bowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for bowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_bowser');
+function tableData_bowser() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['bowser']= { tableData: data, tableDiv: 'times-div-bowser'}
+return data;
+}
+              </script>
+              <div id="times-div-bowser">
+              </div> <!-- times-div-bowser -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-suite-pizza-champignons" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for suite-pizza-champignons</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_suite-pizza-champignons');
+function tableData_suite-pizza-champignons() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testChampignons')
+data.setCell(0, 2, 'com.zaghir.project.testNG.TestNGDemo3')
+data.setCell(0, 3, 20);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testOignon')
+data.setCell(1, 2, 'com.zaghir.project.testNG.TestNGDemo3')
+data.setCell(1, 3, 10);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCuire')
+data.setCell(2, 2, 'com.zaghir.project.testNG.TestNGDemo3')
+data.setCell(2, 3, 10);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCommanderPizzaChampignons')
+data.setCell(3, 2, 'com.zaghir.project.testNG.TestNGDemo3')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testPreparer')
+data.setCell(4, 2, 'com.zaghir.project.testNG.TestNGDemo3')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testEmballer')
+data.setCell(5, 2, 'com.zaghir.project.testNG.TestNGDemo3')
+data.setCell(5, 3, 0);
+window.suiteTableData['suite-pizza-champignons']= { tableData: data, tableDiv: 'times-div-suite-pizza-champignons'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 ms</span>
+              <div id="times-div-suite-pizza-champignons">
+              </div> <!-- times-div-suite-pizza-champignons -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-suite-pizza-fromage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for suite-pizza-fromage</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-bowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for bowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-suite-pizza-champignons" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for suite-pizza-champignons</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-suite-pizza-fromage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.zaghir.project.testNG.TestNGDemo3</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testCommanderPizzaChampignons</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-bowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-suite-pizza-champignons" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.zaghir.project.testNG.TestNGDemo3</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testCommanderPizzaFromage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-suite-pizza-fromage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zaghir.project.testNG.TestNGDemo3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testChampignons</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCommanderPizzaChampignons</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOignon</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCuire</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPreparer</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEmballer</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testChampignons</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCommanderPizzaFromage</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCuire</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOignon</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPreparer</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEmballer</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-bowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zaghir.project.testNG.TestNGDemo3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testChampignons</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCommanderPizzaChampignons</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOignon</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPreparer</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCuire</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEmballer</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testChampignons</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCommanderPizzaFromage</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOignon</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPreparer</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCuire</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEmballer</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-suite-pizza-champignons" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zaghir.project.testNG.TestNGDemo3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testChampignons</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCommanderPizzaChampignons</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOignon</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCuire</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPreparer</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEmballer</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testChampignons</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCommanderPizzaFromage</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCuire</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOignon</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPreparer</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEmballer</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

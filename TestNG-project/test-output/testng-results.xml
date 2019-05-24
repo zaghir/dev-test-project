@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite-pizza-fromage" duration-ms="16" started-at="2016-12-18T13:51:08Z" finished-at="2016-12-18T13:51:08Z">
+    <groups>
+      <group name="commanderPizzaFromage">
+        <method signature="TestNGDemo3.testCommanderPizzaFromage()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@6cc4c815]" name="testCommanderPizzaFromage" class="com.zaghir.project.testNG.TestNGDemo3"/>
+      </group> <!-- commanderPizzaFromage -->
+      <group name="fabrication">
+        <method signature="TestNGDemo3.testCuire()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@6cc4c815]" name="testCuire" class="com.zaghir.project.testNG.TestNGDemo3"/>
+        <method signature="TestNGDemo3.testEmballer()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@6cc4c815]" name="testEmballer" class="com.zaghir.project.testNG.TestNGDemo3"/>
+        <method signature="TestNGDemo3.testPreparer()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@6cc4c815]" name="testPreparer" class="com.zaghir.project.testNG.TestNGDemo3"/>
+      </group> <!-- fabrication -->
+      <group name="legumes">
+        <method signature="TestNGDemo3.testChampignons()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@6cc4c815]" name="testChampignons" class="com.zaghir.project.testNG.TestNGDemo3"/>
+        <method signature="TestNGDemo3.testOignon()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@6cc4c815]" name="testOignon" class="com.zaghir.project.testNG.TestNGDemo3"/>
+      </group> <!-- legumes -->
+    </groups>
+    <test name="test-pizza-fromage" duration-ms="16" started-at="2016-12-18T13:51:08Z" finished-at="2016-12-18T13:51:08Z">
+      <class name="com.zaghir.project.testNG.TestNGDemo3">
+        <test-method status="PASS" signature="testChampignons()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@6cc4c815]" name="testChampignons" duration-ms="2" started-at="2016-12-18T14:51:08Z" finished-at="2016-12-18T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChampignons -->
+        <test-method status="PASS" signature="testCommanderPizzaFromage()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@6cc4c815]" name="testCommanderPizzaFromage" duration-ms="1" started-at="2016-12-18T14:51:08Z" finished-at="2016-12-18T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCommanderPizzaFromage -->
+        <test-method status="PASS" signature="testOignon()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@6cc4c815]" name="testOignon" duration-ms="0" started-at="2016-12-18T14:51:08Z" finished-at="2016-12-18T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOignon -->
+        <test-method status="PASS" signature="testPreparer()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@6cc4c815]" name="testPreparer" duration-ms="0" started-at="2016-12-18T14:51:08Z" finished-at="2016-12-18T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPreparer -->
+        <test-method status="PASS" signature="testCuire()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@6cc4c815]" name="testCuire" duration-ms="10" started-at="2016-12-18T14:51:08Z" finished-at="2016-12-18T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCuire -->
+        <test-method status="PASS" signature="testEmballer()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@6cc4c815]" name="testEmballer" duration-ms="0" started-at="2016-12-18T14:51:08Z" finished-at="2016-12-18T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmballer -->
+      </class> <!-- com.zaghir.project.testNG.TestNGDemo3 -->
+    </test> <!-- test-pizza-fromage -->
+  </suite> <!-- suite-pizza-fromage -->
+  <suite name="bowser" duration-ms="0" started-at="2016-12-18T13:51:08Z" finished-at="2016-12-18T13:51:08Z">
+    <groups>
+    </groups>
+  </suite> <!-- bowser -->
+  <suite name="suite-pizza-champignons" duration-ms="60" started-at="2016-12-18T13:51:08Z" finished-at="2016-12-18T13:51:08Z">
+    <groups>
+      <group name="commanderPizzaChampignons">
+        <method signature="TestNGDemo3.testCommanderPizzaChampignons()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@3dd3bcd]" name="testCommanderPizzaChampignons" class="com.zaghir.project.testNG.TestNGDemo3"/>
+      </group> <!-- commanderPizzaChampignons -->
+      <group name="fabrication">
+        <method signature="TestNGDemo3.testCuire()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@3dd3bcd]" name="testCuire" class="com.zaghir.project.testNG.TestNGDemo3"/>
+        <method signature="TestNGDemo3.testEmballer()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@3dd3bcd]" name="testEmballer" class="com.zaghir.project.testNG.TestNGDemo3"/>
+        <method signature="TestNGDemo3.testPreparer()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@3dd3bcd]" name="testPreparer" class="com.zaghir.project.testNG.TestNGDemo3"/>
+      </group> <!-- fabrication -->
+      <group name="legumes">
+        <method signature="TestNGDemo3.testChampignons()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@3dd3bcd]" name="testChampignons" class="com.zaghir.project.testNG.TestNGDemo3"/>
+        <method signature="TestNGDemo3.testOignon()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@3dd3bcd]" name="testOignon" class="com.zaghir.project.testNG.TestNGDemo3"/>
+      </group> <!-- legumes -->
+    </groups>
+    <test name="test-pizza-champignons" duration-ms="60" started-at="2016-12-18T13:51:08Z" finished-at="2016-12-18T13:51:08Z">
+      <class name="com.zaghir.project.testNG.TestNGDemo3">
+        <test-method status="PASS" signature="testChampignons()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@3dd3bcd]" name="testChampignons" duration-ms="20" started-at="2016-12-18T14:51:08Z" finished-at="2016-12-18T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChampignons -->
+        <test-method status="PASS" signature="testCommanderPizzaChampignons()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@3dd3bcd]" name="testCommanderPizzaChampignons" duration-ms="0" started-at="2016-12-18T14:51:08Z" finished-at="2016-12-18T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCommanderPizzaChampignons -->
+        <test-method status="PASS" signature="testOignon()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@3dd3bcd]" name="testOignon" duration-ms="10" started-at="2016-12-18T14:51:08Z" finished-at="2016-12-18T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOignon -->
+        <test-method status="PASS" signature="testPreparer()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@3dd3bcd]" name="testPreparer" duration-ms="0" started-at="2016-12-18T14:51:08Z" finished-at="2016-12-18T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPreparer -->
+        <test-method status="PASS" signature="testCuire()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@3dd3bcd]" name="testCuire" duration-ms="10" started-at="2016-12-18T14:51:08Z" finished-at="2016-12-18T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCuire -->
+        <test-method status="PASS" signature="testEmballer()[pri:0, instance:com.zaghir.project.testNG.TestNGDemo3@3dd3bcd]" name="testEmballer" duration-ms="0" started-at="2016-12-18T14:51:08Z" finished-at="2016-12-18T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmballer -->
+      </class> <!-- com.zaghir.project.testNG.TestNGDemo3 -->
+    </test> <!-- test-pizza-champignons -->
+  </suite> <!-- suite-pizza-champignons -->
+</testng-results>

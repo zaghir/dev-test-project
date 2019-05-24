@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37345" started-at="2016-12-24T21:38:31Z" finished-at="2016-12-24T21:39:08Z">
+    <groups>
+      <group name="chrome">
+        <method signature="SeleniumTestChromeFirefoxDriver.testIdentification()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="testIdentification" class="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver"/>
+        <method signature="SeleniumTestChromeFirefoxDriver.testMenu()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="testMenu" class="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver"/>
+        <method signature="SeleniumTestChromeFirefoxDriver.testMenuAjouterArticle1()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="testMenuAjouterArticle1" class="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver"/>
+        <method signature="SeleniumTestChromeFirefoxDriver.testMenuAjouterArticle2()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="testMenuAjouterArticle2" class="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver"/>
+        <method signature="SeleniumTestChromeFirefoxDriver.testMenuAfficherLesArticles()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="testMenuAfficherLesArticles" class="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver"/>
+      </group> <!-- chrome -->
+      <group name="firefox">
+        <method signature="SeleniumTestChromeFirefoxDriver.testIdentification()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="testIdentification" class="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver"/>
+        <method signature="SeleniumTestChromeFirefoxDriver.testMenu()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="testMenu" class="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver"/>
+        <method signature="SeleniumTestChromeFirefoxDriver.testMenuAjouterArticle1()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="testMenuAjouterArticle1" class="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver"/>
+        <method signature="SeleniumTestChromeFirefoxDriver.testMenuAjouterArticle2()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="testMenuAjouterArticle2" class="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver"/>
+        <method signature="SeleniumTestChromeFirefoxDriver.testMenuAfficherLesArticles()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="testMenuAfficherLesArticles" class="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver"/>
+      </group> <!-- firefox -->
+    </groups>
+    <test name="Default test" duration-ms="37345" started-at="2016-12-24T21:38:31Z" finished-at="2016-12-24T21:39:08Z">
+      <class name="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver">
+        <test-method status="PASS" signature="setUpFireFox()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="setUpFireFox" is-config="true" duration-ms="4593" started-at="2016-12-24T22:38:31Z" finished-at="2016-12-24T22:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFireFox -->
+        <test-method status="PASS" signature="testIdentification()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="testIdentification" duration-ms="3311" started-at="2016-12-24T22:38:36Z" finished-at="2016-12-24T22:38:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIdentification -->
+        <test-method status="PASS" signature="testMenu()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="testMenu" duration-ms="3042" started-at="2016-12-24T22:38:39Z" depends-on-methods="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver.testIdentification" finished-at="2016-12-24T22:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenu -->
+        <test-method status="PASS" signature="testMenuAjouterArticle1()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="testMenuAjouterArticle1" duration-ms="9227" started-at="2016-12-24T22:38:42Z" depends-on-methods="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver.testMenu" finished-at="2016-12-24T22:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuAjouterArticle1 -->
+        <test-method status="PASS" signature="testMenuAjouterArticle2()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="testMenuAjouterArticle2" duration-ms="9304" started-at="2016-12-24T22:38:51Z" depends-on-methods="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver.testMenuAjouterArticle1" finished-at="2016-12-24T22:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuAjouterArticle2 -->
+        <test-method status="PASS" signature="testMenuAfficherLesArticles()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="testMenuAfficherLesArticles" duration-ms="6301" started-at="2016-12-24T22:39:00Z" depends-on-methods="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver.testMenuAjouterArticle2" finished-at="2016-12-24T22:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuAfficherLesArticles -->
+        <test-method status="PASS" signature="tearDownC()[pri:0, instance:com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver@3e6fa38a]" name="tearDownC" is-config="true" duration-ms="1531" started-at="2016-12-24T22:39:07Z" finished-at="2016-12-24T22:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownC -->
+      </class> <!-- com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

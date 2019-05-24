@@ -1,0 +1,6 @@
+<suite name="pizza">
+  <suite-files>
+    <suite-file path="testng-pizza-champignons.xml" />
+    <suite-file path="testng-pizza-fromage.xml" />
+  </suite-files>
+</suite>

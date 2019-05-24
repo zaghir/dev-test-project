@@ -1,0 +1,15 @@
+<suite name="bowser">
+  <test name="testing-firefox">
+  	<groups>
+  	  <define name="testDriverFireFox">
+      		<include name="setUpFirefox"/>     		     		
+      </define>       
+      <run>
+        <include name="testDriverFireFox"/>
+      </run>
+    </groups>
+    <classes>
+       <class name="com.zaghir.project.testSelenium.SeleniumTestChromeFirefoxDriver" />
+    </classes>
+  </test>
+</suite>
